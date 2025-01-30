@@ -11,9 +11,9 @@ The primary goal of this project is to develop a machine learning model that can
 ## Dataset Description
 The dataset contains the following:
 - 569 instances (samples) with 30 features:
-Mean values of tumor characteristics (e.g., radius, texture, perimeter, area, etc.).
+  Mean values of tumor characteristics (e.g., radius, texture, perimeter, area, etc.).
 - Standard errors of these features.
---Worst values (largest or most severe) of these features.
+  Worst values (largest or most severe) of these features.
 - Target variable:
--- 0: Malignant (dangerous/cancerous tumors).
--- 1: Benign (non-dangerous/non-cancerous tumors).
+   0: Malignant (dangerous/cancerous tumors).
+   1: Benign (non-dangerous/non-cancerous tumors).
