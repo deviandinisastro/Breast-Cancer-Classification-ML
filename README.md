@@ -26,6 +26,8 @@ The following tools and libraries were used in this project:
 2. Pandas and NumPy for data manipulation.
 3. Matplotlib and Seaborn for data visualization.
 4. Scikit-learn for machine learning algorithms and evaluation.
+5. GridSearchCV for hyperparameter tuning
+6.  StandardScaler for feature scaling
 
 ## Project Workflow
 ### Step 1: Data Preprocessing
@@ -54,3 +56,8 @@ The following tools and libraries were used in this project:
 ### Step 6: Conclusion & Final Model Selection
 - Compare model performances and determine the best model.
 - Optimize using GridSearchCV for better accuracy.
+
+## Conclusion
+This project demonstrates the potential of machine learning for breast cancer classification. By using features extracted from tumor characteristics, the Logistic Regression model effectively distinguishes between benign and malignant cases with an accuracy of 98.25%. While the current model shows promising results, further development and validation are necessary to ensure its reliability and potential for clinical use.
+
+#### If you have any questions, suggestions, or feedback, please feel free to reach out to me via Email: deviadns1@gmail.com or LinkedIn: linkedin.com/in/deviandinisastro/.
