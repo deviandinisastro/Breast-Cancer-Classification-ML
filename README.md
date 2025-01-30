@@ -58,6 +58,6 @@ The following tools and libraries were used in this project:
 - Optimize using GridSearchCV for better accuracy.
 
 ## Conclusion
-This project demonstrates the potential of machine learning for breast cancer classification. By using features extracted from tumor characteristics, the Logistic Regression model effectively distinguishes between benign and malignant cases with an accuracy of 98.25%. While the current model shows promising results, further development and validation are necessary to ensure its reliability and potential for clinical use.
+This project demonstrates the potential of machine learning for breast cancer classification. By using features extracted from tumor characteristics, the **Logistic Regression** model effectively distinguishes between benign and malignant cases with an accuracy of **98.25%**. While the current model shows promising results, further development and validation are necessary to ensure its reliability and potential for clinical use.
 
-#### If you have any questions, suggestions, or feedback, please feel free to reach out to me via Email: deviadns1@gmail.com or LinkedIn: linkedin.com/in/deviandinisastro/.
+#### If you have any questions, suggestions, or feedback, please feel free to reach out to me via Email: deviadns1@gmail.com or LinkedIn: https://www.linkedin.com/in/deviandinisastro/.
