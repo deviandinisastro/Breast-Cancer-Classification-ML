@@ -26,3 +26,31 @@ The following tools and libraries were used in this project:
 2. Pandas and NumPy for data manipulation.
 3. Matplotlib and Seaborn for data visualization.
 4. Scikit-learn for machine learning algorithms and evaluation.
+
+## Project Workflow
+### Step 1: Data Preprocessing
+- Handle missing values (if any).
+- Feature Scaling (Normalization) using StandardScaler.
+- Train-Test Split (80% Training, 20% Testing).
+
+### Step 2: Exploratory Data Analysis (EDA)
+- Understand the dataset through statistics and visualizations.
+- Identify correlations between tumor features.
+- Visualize the target variable distribution (Benign vs. Malignant).
+
+### Step 3: Train Machine Learning Models
+- Logistic Regression
+- Random Forest (With Hyperparameter Tuning)
+- Support Vector Machine (SVM - Linear Kernel)
+
+### Step 4: Model Evaluation
+- Evaluate models using Accuracy, Precision, Recall, F1-Score, and ROC-AUC Curve.
+- Identify the best-performing model for real-world application.
+
+### Step 5: Visualization for Feature Importance Analysis
+- Analyze which tumor characteristics contribute most to classification.
+- Use Random Forest & Logistic Regression coefficients to determine important features.
+
+### Step 6: Conclusion & Final Model Selection
+- Compare model performances and determine the best model.
+- Optimize using GridSearchCV for better accuracy.
