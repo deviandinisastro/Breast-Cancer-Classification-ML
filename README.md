@@ -3,6 +3,17 @@ This project is developed as part of my portfolio for Digital Skill Fair (DSF) 3
 
 ## Goals
 The primary goal of this project is to develop a machine learning model that can:
-- Accurately classify whether a tumor is benign or malignant based on feature values.
-- Compare different machine learning models and select the best-performing one.
-- Analyze feature importance to understand which tumor characteristics contribute the most to predictions.
+- To build and evaluate machine learning models for classifying breast tumors as **benign** or **malignant**.
+- To identify the most important features that contribute to the classification.
+- To determine the best-performing model based on accuracy and other evaluation metrics.
+- To provide insights into the dataset and model performance for potential clinical use.
+
+## Dataset Description
+The dataset contains the following:
+- 569 instances (samples) with 30 features:
+Mean values of tumor characteristics (e.g., radius, texture, perimeter, area, etc.).
+- Standard errors of these features.
+--Worst values (largest or most severe) of these features.
+- Target variable:
+-- 0: Malignant (dangerous/cancerous tumors).
+-- 1: Benign (non-dangerous/non-cancerous tumors).
